@@ -1,5 +1,0 @@
-# hotel-reservation-site
-..
-,,
-,,
-/
