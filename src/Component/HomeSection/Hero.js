@@ -1,11 +1,13 @@
 import React from 'react'
+import Slide from './Slide';
+import Data from './Data';
 
 const Hero = () => {
   return (
  <>
- 
+ <Slide Slides={Data}/>
  </>
   )
 }
 
-export default Hero
+export default Hero;
