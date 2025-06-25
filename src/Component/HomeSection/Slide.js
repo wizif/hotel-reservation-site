@@ -1,5 +1,5 @@
 import React, { useState } from "react"; // ✅ You need to import useState
-
+import "./Home.css"
 const Slide = ({ Slides }) => { // ✅ Destructure Slides from props
   const [current, setCurrent] = useState(0);
 
@@ -36,11 +36,33 @@ const Slide = ({ Slides }) => { // ✅ Destructure Slides from props
               key={index} // ✅ `key` should be outside the className
             >
               {index === current && (
-                <img src={slide.image} alt="Slide Image" />
+                <img src={slide.images} alt="Slide Image" />
               )}
             </div>
           );
         })}
+      </section>
+
+      <section className="slide-form">
+        <div className="container">
+          <h2>Enjoy your holiday</h2>
+          <span>Search and book hotel</span>
+          <form action="">
+            <input type="text" placeholder="Search City" name='' id='' />
+            <div className="flex_space">
+              <input type="date" placeholder="check in" />
+              <input type="date" placeholder="check out" />
+            </div>
+            <div className="flex_space">
+              <input type="number" placeholder="Adults (18+)" />
+              <input type="number" placeholder="Children(0-17)" />
+            </div>
+            <input type="number" placeholder="Rooms" />
+            <input type="Submit" value="search" className="submit" />
+
+
+          </form>
+        </div>
       </section>
     </>
   );
