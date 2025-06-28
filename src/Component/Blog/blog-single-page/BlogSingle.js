@@ -2,8 +2,9 @@ import React, { useState, useEffect } from "react"
 import { Link } from "react-router-dom"
 import BlogData from "../BlogData"
 import EmptyFile from "../../../Common/Empty/EmptyFile"
-import HeadTitle from "../../../Common/HeadTitle/HeadTitle"
+// import HeadTitle from "../../../Common/HeadTitle/HeadTitle"
 import { useParams } from "react-router-dom"
+import HeadTitle from "../../../common/HeadTitle/HeadTitle"
 
 const BlogSingle = () => {
   const { id } = useParams()
