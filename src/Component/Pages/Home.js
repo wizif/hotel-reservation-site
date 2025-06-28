@@ -1,6 +1,6 @@
 import React from 'react'
-import Hero from '../Hero'
-import HomeAbout from '../HomeAbout'
+import Hero from '../HomeSection/Hero'
+import HomeAbout from '../HomeSection/HomeAbout'
 
 const Home = () => {
   return (
