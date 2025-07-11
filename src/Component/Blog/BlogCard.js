@@ -27,4 +27,4 @@ const BlogCard = ({ item: { id, cover, title, desc, para, catgeory, date } }) =>
   )
 }
 
-export default BlogCard
+export default BlogCard;

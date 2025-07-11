@@ -20,4 +20,4 @@ const AllBlog = () => {
   )
 }
 
-export default AllBlog
+export default AllBlog;

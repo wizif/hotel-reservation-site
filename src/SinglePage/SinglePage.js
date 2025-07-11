@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react"
 import { Link } from "react-router-dom"
-import Sdata from "../Components/Destinations/Sdata"
-import EmptyFile from "../Common/Empty/EmptyFile"
+import Sdata from "../Component/Destinations/Sdata"
+import EmptyFile from "../common/EmptyFile/EmptyFile"
 import { useParams } from "react-router-dom"
 // import HeadTitle from "../Common/HeadTitle/HeadTitle"
-import "./singlepage.css"
+import "./SinglePage.css"
 import HeadTitle from "../common/HeadTitle/HeadTitle"
 
 const SinglePage = () => {
@@ -77,4 +77,4 @@ const SinglePage = () => {
   )
 }
 
-export default SinglePage
+export default SinglePage;

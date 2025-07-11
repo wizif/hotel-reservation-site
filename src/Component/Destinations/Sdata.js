@@ -45,4 +45,4 @@ const Sdata = [
     },
   ]
   
-  export default Sdata
+  export default Sdata;

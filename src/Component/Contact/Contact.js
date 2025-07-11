@@ -1,6 +1,6 @@
 import React from "react"
-import HeadTitle from "../../Common/HeadTitle/HeadTitle"
 import ContactFrom from "./ContactFrom"
+import HeadTitle from "../../common/HeadTitle/HeadTitle"
 
 const Contact = () => {
   return (

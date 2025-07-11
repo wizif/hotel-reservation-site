@@ -17,4 +17,4 @@ const AllItem = () => {
   )
 }
 
-export default AllItem
+export default AllItem;
