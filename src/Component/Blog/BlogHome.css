@@ -17,7 +17,7 @@
     transition: 0.5s ease-in-out;
   }
   .category label {
-    background-color: #31b675;
+    background-color: #175976;
     font-size: 13px;
     color: white;
     padding: 5px 15px;
@@ -42,11 +42,11 @@
     transition: 0.5s ease-in-out;
   }
   .blog .items a i {
-    color: #31b675;
+    color: #2b6bab;
     transition: 0.5s ease-in-out;
   }
   .blog .items:hover {
-    background-color: #31b675;
+    background-color: #277396;
     cursor: pointer;
   }
   .blog .items:hover h3,
@@ -58,7 +58,7 @@
   }
   .blog .items:hover label {
     background-color: #fff;
-    color: #31b675;
+    color: #2b849d;
     cursor: pointer;
   }
   /*---------blog single page------*/
@@ -70,7 +70,7 @@
   }
   .category-list hr {
     border: none;
-    border-bottom: 3px dotted #31b675;
+    border-bottom: 3px dotted #288298;
     width: 100px;
   }
   .category-list ul {
@@ -81,12 +81,12 @@
     transition: 0.5s;
   }
   .category-list ul li:hover {
-    color: #31b675;
+    color: #2c9aa7;
     transform: translateX(10px);
     cursor: pointer;
   }
   .category-list i {
-    color: #31b675;
+    color: #2a828e;
     margin-right: 20px;
   }
   /*---------blog single page------*/

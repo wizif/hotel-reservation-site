@@ -5,7 +5,7 @@
     content: "";
     width: 100%;
     height: 40vh;
-    background: #eaf8f1;
+    background: #a5d2e6;
     position: absolute;
     top: 0;
     left: 0;
@@ -52,7 +52,7 @@
   .popular .cards h2 {
     font-weight: 500;
     font-size: 20px;
-    color: #31b675;
+    color: #277396;
     position: relative;
     margin-bottom: 30px;
   }
@@ -75,7 +75,7 @@
     background: black;
   }
   .popular .cards h3 {
-    color: #31b675;
+    color: #277396;
     font-weight: 500;
   }
   .popular .cards h3 span {
@@ -107,7 +107,7 @@
   }
   .popular .control-btn .prev i:hover,
   .popular .control-btn .next i:hover {
-    background: #31b675;
+    background: #277396;
     color: white;
   }
   /*----- control btn -------*/

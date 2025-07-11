@@ -1,6 +1,6 @@
 footer {
   background-color: #000;
-  color: white;
+  color: rgb(255, 255, 255);
   margin-top: 50px;
   padding: 50px 0;
 }
@@ -30,7 +30,7 @@ footer ul li {
 }
 footer .post li {
   margin-bottom: 20px;
-  border-bottom: 1px solid rgb(63, 62, 62);
+  border-bottom: 1px solid rgb(255, 255, 255);
 }
 footer .post li:nth-last-child(1) {
   border-bottom: none;
@@ -44,7 +44,7 @@ footer .post span {
 }
 footer input {
   background: none;
-  border: 1px solid rgb(63, 62, 62);
+  border: 1px solid rgb(255, 255, 255);
   border-radius: 5px;
   margin: 10px 0;
 }
@@ -57,7 +57,7 @@ footer .primary-btn {
   text-align: center;
   padding: 20px;
   background-color: #000;
-  border-top: 1px solid rgb(63, 62, 62);
+  border-top: 1px solid rgb(255, 255, 255);
   color: white;
 }
 .legal p {
