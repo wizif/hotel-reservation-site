@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import HeadTitle from "../../Common/HeadTitle/HeadTitle"
+import HeadTitle from "../../common/HeadTitle/HeadTitle"
 import "./design.css"
 
 const Register = () => {

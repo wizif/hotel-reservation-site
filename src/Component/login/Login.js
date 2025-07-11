@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import { Link } from "react-router-dom"
-import HeadTitle from "../../Common/HeadTitle/HeadTitle"
 import "./design.css"
+import HeadTitle from "../../common/HeadTitle/HeadTitle"
 
 const Login = () => {
   const [email, setEmail] = useState("")

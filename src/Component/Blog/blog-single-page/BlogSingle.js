@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react"
 import { Link } from "react-router-dom"
 import BlogData from "../BlogData"
-import EmptyFile from "../../../Common/Empty/EmptyFile"
+import EmptyFile from "../../../common/EmptyFile/EmptyFile"
 // import HeadTitle from "../../../Common/HeadTitle/HeadTitle"
 import { useParams } from "react-router-dom"
 import HeadTitle from "../../../common/HeadTitle/HeadTitle"

@@ -1,6 +1,5 @@
 import React from "react"
 import "../popular/MostPopular.css"
-//import Dcards from "../../Destinations/Dcards"
 import AllItem from "../../Destinations/AllItem"
 
 const DestinationHome = () => {
@@ -22,4 +21,4 @@ const DestinationHome = () => {
   )
 }
 
-export default DestinationHome
+export default DestinationHome;
