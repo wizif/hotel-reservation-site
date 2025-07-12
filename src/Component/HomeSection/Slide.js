@@ -16,7 +16,6 @@ const Slide = ({ Slides }) => {
   if (!Array.isArray(Slides) || Slides.length <= 0) {
     return null;
   }
-
   return (
     <>
       <section className="slider">
