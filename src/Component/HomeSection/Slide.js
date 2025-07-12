@@ -1,16 +1,16 @@
-import React, { useState } from "react"; // ✅ You need to import useState
-import "./Home.css"
-const Slide = ({ Slides }) => { // ✅ Destructure Slides from props
-  const [current, setCurrent] = useState(0);
+import React, { useState } from "react";
+import "./Home.css";
 
-  const length = Slides.length; // ✅ Use the correct variable name
+const Slide = ({ Slides }) => {
+  const [current, setCurrent] = useState(0);
+  const length = Slides.length;
 
   const nextSlide = () => {
-    setCurrent(current === length - 1 ? 0 : current + 1); // ✅ Fixed variable name and comparison
+    setCurrent(current === length - 1 ? 0 : current + 1);
   };
 
   const prevSlide = () => {
-    setCurrent(current === 0 ? length - 1 : current - 1); // ✅ Should go back, not forward
+    setCurrent(current === 0 ? length - 1 : current - 1);
   };
 
   if (!Array.isArray(Slides) || Slides.length <= 0) {
@@ -20,6 +20,7 @@ const Slide = ({ Slides }) => { // ✅ Destructure Slides from props
   return (
     <>
       <section className="slider">
+        {/* ✅ Useful navigation buttons kept */}
         <div className="control-btn">
           <button className="prev" onClick={prevSlide}>
             <i className="fas fa-caret-left"></i>
@@ -29,38 +30,33 @@ const Slide = ({ Slides }) => { // ✅ Destructure Slides from props
           </button>
         </div>
 
-        {Slides.map((slide, index) => {
-          return (
-            <div
-              className={index === current ? "slide active" : "slide"}
-              key={index} // ✅ `key` should be outside the className
-            >
-              {index === current && (
-                <img src={slide.images} alt="Slide Image" />
-              )}
-            </div>
-          );
-        })}
+        {Slides.map((slide, index) => (
+          <div
+            className={index === current ? "slide active" : "slide"}
+            key={index}
+          >
+            {index === current && <img src={slide.images} alt="Slide" />}
+          </div>
+        ))}
       </section>
 
+      {/* ✅ Form kept if you actually use it */}
       <section className="slide-form">
         <div className="container">
           <h2>Enjoy your holiday</h2>
           <span>Search and book hotel</span>
-          <form action="">
-            <input type="text" placeholder="Search City" name='' id='' />
+          <form>
+            <input type="text" placeholder="Search City" />
             <div className="flex_space">
-              <input type="date" placeholder="check in" />
-              <input type="date" placeholder="check out" />
+              <input type="date" />
+              <input type="date" />
             </div>
             <div className="flex_space">
               <input type="number" placeholder="Adults (18+)" />
-              <input type="number" placeholder="Children(0-17)" />
+              <input type="number" placeholder="Children (0-17)" />
             </div>
             <input type="number" placeholder="Rooms" />
-            <input type="Submit" value="search" className="submit" />
-
-
+            <input type="submit" value="Search" className="submit" />
           </form>
         </div>
       </section>

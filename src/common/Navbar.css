@@ -1,6 +1,6 @@
 
 .navbar {
-    background: #222222;
+    background: #000000;
     /*position: sticky;*/
     top: 0;
     z-index: 999;
@@ -13,13 +13,19 @@
     transition: all 0.2s ease-out;
     margin: 0 30px 0 0;
   }
-  
+  /* Logo size improvement */
+.logo img {
+  width: 120px; /* You can adjust this */
+  height: 80px;
+  object-fit: contain;
+}
+
   nav ul li a {
     color: #fff;
-    font-weight: 100;
+    font-weight: 600;
     font-size: 15px;
     letter-spacing: 1px;
-    transition: all 0.2s ease-out;
+    transition: all 0.4s ease-out;
     opacity: 0.8;
   }
   nav ul li a:hover {
@@ -41,7 +47,7 @@
   }
   
   .login-area a {
-    font-weight: 100;
+    font-weight: 600;
     opacity: 0.8;
     font-size: 13px;
     color: #fff;
@@ -77,7 +83,7 @@
       display: block;
     }
     nav ul.active {
-      background: #084767;
+      background: #0d74a7;
       left: 0;
       opacity: 1;
       transition: all 0.5s ease;
@@ -110,11 +116,12 @@
   }
   header a {
     font-size: 13px;
-    color: grey;
+    font-weight: 800;
+    color: rgb(21, 81, 111);
   }
   header i {
     font-size: 40px;
-    color: #31b675;
+    color: #319bb6;
     margin-right: 15px;
   }
   header .text {
@@ -146,3 +153,11 @@
     }
     /*--------header--------*/
   }
+  .navbar {
+  background: linear-gradient(to right, #000000, #18719a);
+  /*position: sticky;*/
+  top: 0;
+  z-index: 999;
+  height: 10vh;
+  line-height: 10vh;
+}
