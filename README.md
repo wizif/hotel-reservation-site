@@ -1,0 +1,1 @@
+https://thewisehotelbookings.netlify.app/
