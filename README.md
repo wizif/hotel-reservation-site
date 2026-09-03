@@ -4,6 +4,7 @@
 
 <br/>
 
+[![GitHub Repo](https://img.shields.io/badge/GitHub-wizif%2Fhotel--reservation--site-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/wizif/hotel-reservation-site)
 ![React](https://img.shields.io/badge/React-19.1.0-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![React Router](https://img.shields.io/badge/React_Router-v6-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
 ![React Slick](https://img.shields.io/badge/React--Slick-Carousel-FF6B6B?style=for-the-badge)
@@ -35,6 +36,8 @@
 ---
 
 ## 🚀 Live Demo
+
+🔗 **GitHub Repository:** [https://github.com/wizif/hotel-reservation-site](https://github.com/wizif/hotel-reservation-site)
 
 > Run locally via `npm start` — see [Getting Started](#️-getting-started) below.
 
