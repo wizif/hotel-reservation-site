@@ -381,6 +381,10 @@ The app will open at **`http://localhost:3000`** in your browser.
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2500&pause=800&color=FFD700&center=true&vCenter=true&width=600&lines=Thanks+for+checking+out+the+project!;Built+with+React+19+%F0%9F%9A%80;Star+%E2%AD%90+if+you+found+it+useful!" alt="Footer Typing SVG" />
 
-**Made with ❤️ using React**
+<br/>
+
+[![GitHub](https://img.shields.io/badge/GitHub-wizif-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/wizif)
+
+**© 2024 [wizif](https://github.com/wizif) · All Rights Reserved**
 
 </div>
