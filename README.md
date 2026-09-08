@@ -83,7 +83,7 @@ hotel-booking-site/
 │       ├── blog-6.jpg
 │       ├── profile3.jpg
 │       ├── appstore-button.png
-│       ├── google-play-button.png
+│       ├── google-play-button.png 
 │       ├── app-image-1.png
 │       ├── works/               # Works section icons
 │       └── singlepage/          # Single page detail images
