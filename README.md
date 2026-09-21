@@ -3,7 +3,7 @@
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=36&duration=3000&pause=1000&color=FFD700&center=true&vCenter=true&width=700&lines=🏨+Hotel+Booking+Site;Find.+Explore.+Book.;Built+with+React+%26+React+Router" alt="Typing SVG" />
 
 <br/>
-
+ 
 [![GitHub Repo](https://img.shields.io/badge/GitHub-wizif%2Fhotel--reservation--site-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/wizif/hotel-reservation-site)
 ![React](https://img.shields.io/badge/React-19.1.0-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![React Router](https://img.shields.io/badge/React_Router-v6-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
