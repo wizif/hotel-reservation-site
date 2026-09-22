@@ -17,7 +17,6 @@
 > **A fully functional hotel booking UI** built with React 19, featuring multi-page navigation, interactive carousels, destination browsing, blog, testimonials, a contact form with state management, and user authentication UI — all powered by React Router v6.
 
 <br/>
-
 ---
 
 </div>
