@@ -37,7 +37,7 @@
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-thewisehotelbookings.netlify.app-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://thewisehotelbookings.netlify.app/)
 
-🌐 **Live Site:** [https://thewisehotelbookings.netlify.app/](https://thewisehotelbookings.netlify.app/)
+🌐 **Live Site:**  [https://thewisehotelbookings.netlify.app/](https://thewisehotelbookings.netlify.app/)
 
 🔗 **GitHub Repository:** [https://github.com/wizif/hotel-reservation-site](https://github.com/wizif/hotel-reservation-site)
 
