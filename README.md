@@ -62,7 +62,7 @@
 | 💬 Testimonials | ✅ Working | Customer review cards from data array |
 | 📬 Contact Form | ✅ Logic | Controlled form with React state, shows submitted data |
 | 🔐 Sign In Page | ✅ Logic | Controlled form, displays submitted credentials on screen |
-| 📋 Register Page | ✅ Logic | Controlled form with name/email/password/confirm password |
+| 📋 Register Page | ✅ Logic | Controlled form with name/email/password/confirm password | 
 | 📡 Responsive Navbar | ✅ Working | Hamburger menu toggle with mobile overlay |
 | 🦶 Footer | ✅ Working | 4-column layout with navigation, social icons & newsletter |
 | 📧 EmailJS Dependency | ✅ Installed | Package `@emailjs/browser` is installed |
