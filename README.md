@@ -9,7 +9,7 @@
 ![Font Awesome](https://img.shields.io/badge/Font_Awesome-6.7.2-339AF0?style=for-the-badge&logo=font-awesome&logoColor=white)
 ![EmailJS](https://img.shields.io/badge/EmailJS-Integrated-orange?style=for-the-badge)
 ![CSS3](https://img.shields.io/badge/CSS3-Vanilla-1572B6?style=for-the-badge&logo=css3&logoColor=white) 
- 
+  
 <br/>
 
 > **A fully functional hotel booking UI** built with React 19, featuring multi-page navigation, interactive carousels, destination browsing, blog, testimonials, a contact form with state management, and user authentication UI — all powered by React Router v6.
